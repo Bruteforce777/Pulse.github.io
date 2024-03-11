@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Pulse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;600;800&display=swap" rel="stylesheet"/>
+<script src="https://kit.fontawesome.com/a6765046e2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <!------------------nav-bar-------------->
+
+        <div class="nav-bar">
+            <h1>Pulse</h1>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <i class="fa-sharp fa-solid fa-square-xmark" onclick="hidemenu()"></i>
+                    <li><a class="active" href="/features.html">Features</a></li>
+                    <li><a href="/customer.html">Customer Stories</a></li>
+                    <li><a href="/pricing.html">Pricing</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <a class="hero-signup" href="/sign-in.html">Sign In</a>
+                    <a class="hero-signout" href="#">Sign Out</a>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </div>
+
+        <!-----------------terms of use------------------>
+
+        <div class="tm-of-use">
+            <div class="terms-header">
+                <h1>EU Privacy and Data Protection</h1>
+                
+                <p>Privacy and security is a priority for us. Our Privacy Policy(link) 
+                    and Terms of Use(link) documents cover most of what you need to 
+                    know about how we use personal information that is provided to us,
+                     but we wanted to be extra clear about
+                     our practices as they relate to recent EU privacy legislation.
+                </p>
+
+                <p>Unless otherwise defined in this document, terms used in this document
+                   have the same meanings as in our Privacy Policy(link) and Terms of Use(link).
+                </p>
+            </div>
+
+            <div class="terms-headers">
+                <h2>GDPR</h2>
+                <p>If you use the Internet, GDPR affects you. Pulse has made
+                   significant changes to become GDPR compliant.
+                </p>
+            </div>
+
+            <div class="terms-headers">
+                <h2>Security and Data Center Location</h2>
+                <p>Pulse’s servers are located in the US and are managed by Heroku. Our databases 
+                    are backed up daily, and those daily backups are stored for one week. The databases
+                     are also backed up weekly, and those weekly backups are kept for 30 days.
+                      All backups are stored by Heroku. You can learn more about Heroku’s data
+                       architecture here.
+                </p>
+            </div>
+
+            <div class="terms-headers">
+                <h2>Data Retention</h2>
+                <p>We collect and retain the following information from our customers:</p>
+                <p><i class="fa-solid fa-check"></i> Full name<br>
+                    <i class="fa-solid fa-check"></i> Email<br>
+                    <i class="fa-solid fa-check"></i> Company name<br>
+                    <i class="fa-solid fa-check"></i> Username<br>
+                    <i class="fa-solid fa-check"></i> Billing postal code
+                </p>
+                <p>We collect this information for the purpose of providing the Pulse service,
+                     identifying and communicating with our customers, responding to our customer 
+                     requests/enquiries, getting paid for use of our
+                     products and services, and improving our products and services.
+                </p>
+            </div>
+
+            <div class="terms-headers">
+                <h2>List of Sub-processors</h2>
+                <p>As noted in our Privacy Policy, we may employ third party companies or service
+                     providers and individuals to facilitate our Service, to provide the Service on 
+                     our behalf, to perform Service-related services and/or to assist us in analyzing 
+                     how our Service is used.
+                </p>
+                <p>These third parties have access to your Personal Information only to perform specific
+                     tasks on our behalf and are obligated not to 
+                    disclose or use your information for any other purpose.
+                </p>
+                <p>GDPR defines third party companies and service providers like these as “sub-processors”.</p>
+                <p>Where applicable, we’ve linked to each sub-processor’s policies; we recommend reading each one 
+                    to make sure you’re OK with us sharing some of your data with them.
+                </p>
+                <p> <i class="fa-solid fa-check"></i> We use <a href="/building.html">Stripe</a> to process our customers’ payments for our Service.<br>
+                    <i class="fa-solid fa-check"></i> We use <a href="/building.html">Postmark</a> to send transactional emails (like receipts and notifications).<br>
+                    <i class="fa-solid fa-check"></i> We use <a href="/building.html">Google Analytics</a> to track visits to our website, but only if the visitor has consented to being tracked.<br>
+                    <i class="fa-solid fa-check"></i> We use <a href="/building.html">Intercom</a> to provide customer support and to communicate with customers that are logged into the Service.
+                </p>
+                <p>If you have specific questions about what data we send to any of those services, contact us using 
+                    the information below and we’ll be happy to explain in more detail.
+                </p>
+            </div>
+
+            <div class="terms-headers">
+                <h2>Access to Your Information (DSR Requests)</h2>
+                <p>Another term that GDPR defines is “Data subject”. Put simply, a data subject is the 
+                    individual whom particular personal data is about. A DSR (Data Subject Rights) request
+                     is when an individual asks a data controller to take action on their personal data. 
+                     An example of a DSR request would be if a Pulse customer asks for an export of all 
+                     the data they have entered into Pulse, or to
+                     permanently delete all the information they’ve entered into Pulse.
+                </p>
+                <p>We plan on processing these requests manually, though we’ve built some tools to allow 
+                    our customers to access, correct,
+                     amend, or delete most of their data themselves.
+                </p>
+                <p>We will give a Pulse customer access to any personal information we have about them 
+                    within 30 days of any request for that information, and we won’t charge anything to 
+                    process these requests. Individuals may request to access, correct, amend or delete 
+                    information we hold about them by contacting us using the information below. Unless
+                     prohibited by law, we will remove any Personal Information about an individual 
+                     from our servers at their request.
+                </p>
+            </div>
+
+            <div class="terms-headers">
+                <h2>Contact Information</h2>
+                <p>If you have any questions or concerns about this document, please contact us by email at 
+                    info@pulseapp.com or by mail at 2125 Broad Avenue, Memphis, TN 38117, US.
+                </p>
+            </div>
+        </div>    
+    </div>
+
+    <div class="top-free-trial">
+        <div class="free-trial">
+            <h1><a href="/sign-up.html">Sign Up for a Free Trial<i class="fa-solid fa-arrow-right"></i></a></h1>
+        </div>
+    </div>    
+
+    <div class="top-footer">
+        <div class="footer">
+                
+            <div class="product footer-header">
+                <h1>Pulse</h1>
+                <h4><a href="/sign-up.html">Free 30 days Trial</a></h4>
+            </div>
+    
+            <div class="product">
+                <h5>Product</h5>
+                <p><a href="features.html">Features</a></p>
+                <p><a href="/pricing.html">Pricing</a></p>
+                <p><a href="/sign-up.html">Sign Up</a></p>
+            </div>
+
+            <div class="product">
+                <h5>Company</h5>
+                <p><a href="customer.html">Customer Stories</a></p>
+                <p><a href="/about-us.html">About</a></p>
+                <p><a href="/sign-up.html">Contact</a></p>
+            </div>
+
+            <div class="product">
+                <h5>Resources</h5>
+                <p><a href="support.html">Support</a></p>
+                <p><a href="/blog.html">Blog</a></p>
+            </div>                
+        </div>
+
+        <div class="matrix-links">
+            <div class="terms-of-use">
+                <p><i class="fa-regular fa-copyright"></i>2019 Matrixapp.com, Inc. All  Rights Reserved 
+                    <a href="/terms-of-use.html"><i class="fa-solid fa-arrow-right"></i>Terms of Use.</a>  
+                        <i class="fa-solid fa-key"></i><a href="/privacy-policy.html">Privacy Policy.</a>
+                        <i class="fa-regular fa-hand"></i><a href="/eu-privacy-policy.html">EU Privacy.</a>
+                </p>
+            </div>
+            <div class="my-links">
+                <p>Pulse was made with <i class="fa-regular fa-heart"></i> By <a href="/building.html">BruteForce.</a> 
+                    I  also made <a href="/building.html">BallPark</a>, <a href="/building.html">Stifer, </a> and <a href="/building.html">Curated</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+     <!-------Javscript for Toggling Menu------->
+     <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-202px"
+        }
+    </script>
+    <!-------javascript for Toggling Menu------>
+
+</body>
+</html>        
